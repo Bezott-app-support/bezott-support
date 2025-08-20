@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Bezott</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #004aad;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .contact {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        button {
+            background: #004aad;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #003d8f;
+        }
+        a {
+            color: #004aad;
+        }
+        .email-contact {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bezott Support</h1>
+    
+    <p><strong>Bezott</strong> is your planning application to organize your daily tasks automatically and manually.</p>
+    
+    <div class="contact">
+        <h2>Contact Us</h2>
+        
+        <form action="mailto:contact@bezott.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="firstname">First Name *</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="lastname">Last Name *</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Your Message *</label>
+                <textarea id="message" name="message" placeholder="Describe your problem or question..." required></textarea>
+            </div>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        
+        <div class="email-contact">
+            <p><strong>Or send us an email directly:</strong><br>
+            <a href="mailto:contact@bezott.com">contact@bezott.com</a></p>
+            <p>We respond within 48 hours.</p>
+        </div>
+    </div>
+    
+    <hr>
+    <p><small>&copy; 2025 Bezott - <a href="https://www.privacypolicies.com/live/1bb5016e-97a6-4550-ab05-777ec6a7aeab">Privacy Policy</a></small></p>
+</body>
+</html>
